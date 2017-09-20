@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class=container>
+            <a class="navbar-brand" href="#">FreeCodeCamp Wiki Viewer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav navbar-nav">
+                <li class="nav-item pull-xs-right">
+                    <a href="#">Made by John Hui</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <div class="container text-center">
+            <h1>Wikipedia Search</h1>
+            <img class="wikiLogo" src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png">
+            <div class="input-group">
+                <input type="text" id="searchTerm" class="form-control" placeholder="Search for..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id='search'>Search!</span>
+              </div>
+
+              <button type="button" class="btn btn-primary"><a href="https://en.wikipedia.org/wiki/Special:Random"> feel lucky</a></button>
+              <div>
+                <h2>Search Result</h2>
+                <div>
+                  <ul class="list-group" id="searchResult">
+                </div>
+            </div>
+           </div>
+        <script src="script.js"></script>
+    </body>
+</html>
